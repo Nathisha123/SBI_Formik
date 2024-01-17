@@ -2,7 +2,7 @@ import React from 'react'
 
 function Query() {
   return (
-    <h1>Querry</h1>
+    <h1>Query</h1>
   )
 }
 

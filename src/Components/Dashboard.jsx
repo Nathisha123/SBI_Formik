@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import Card from './Card'
+import Card from './Card';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
