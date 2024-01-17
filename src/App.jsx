@@ -22,7 +22,7 @@ function App() {
         <Route path='/batch' element={<Batch/>}>
             <Route path='user' element={<User/>}/>
             <Route path='class' element={<Class  />}/>
-            <Route path='query' element={<Querry/>}/>
+            <Route path='query' element={<Query/>}/>
         </Route>
         <Route path='*' element={<Navigate to='/dashboard'/>}/>
       </Routes>
