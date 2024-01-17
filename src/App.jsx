@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
-import Sidebar from './components/Sidebar'
-import Dashboard from './components/Dashboard'
-import Class from './components/Class'
-import User from './components/User'
-import Querry from './components/Querry'
+import Sidebar from './Components/Sidebar'
+import Dashboard from './Components/Dashboard'
+import Class from './Components/Class'
+import User from './Components/User'
+import Querry from './Components/Querry'
 import {BrowserRouter,Routes, Route, Navigate} from 'react-router-dom'
-import AddUser from './components/AddUser'
-import EditUser from './components/EditUser'
-import Batch from './components/Batch'
+import AddUser from './Components/AddUser'
+import EditUser from './Components/EditUser'
+import Batch from './Components/Batch'
 
 function App() {
  

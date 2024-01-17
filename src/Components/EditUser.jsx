@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useNavigate,useParams } from 'react-router-dom';
-import AxiosService from '../utils/ApiService';
+import AxiosService from '../Utils/ApiService';
 import { useFormik } from 'formik';
 import * as Yup from 'yup'
 function EditUser() {
